@@ -30,7 +30,7 @@ public class Stamina : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             //than current stamina is minused by 1
-            curStamina -= 1;
+            curStamina -= 0.5f;
         }
 
         //caps the max health
