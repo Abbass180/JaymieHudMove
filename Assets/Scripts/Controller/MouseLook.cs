@@ -11,7 +11,9 @@ public class MouseLook : MonoBehaviour
     float xRotation = 0f;
     void Start()
     {
+
         Cursor.lockState = CursorLockMode.Locked; //makes cursor invisible and locks into the game scene
+
     }
 
     void Update()
